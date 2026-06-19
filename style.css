@@ -1,0 +1,26 @@
+   
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  nav {
+    background-color: black;    /* Dark background */
+    padding: 15px 20px;        /* Spacing inside the bar */
+  }
+
+  /* 3. Style the links */
+  nav a {
+    color: white;              /* Makes text readable on dark background */
+    text-decoration: none;     /* Removes the underline */
+    font-family: sans-serif;   /* Makes it look clean */
+    font-weight: bold;
+  }
+
+  /* 4. The "Pseudo-class" trick (The mood!) */
+  nav a:hover {
+    color: #ffcc00;            /* Turns gold when you hover over it */
+  }
